@@ -44,7 +44,7 @@ const RegistrationModal = ({
 
   return (
     <div className="login-wrapper">
-      <div className="login-input">
+      <div className="register_container">
         {registrationSuccess ? (  
         
           <div className="registration-success">
@@ -63,7 +63,7 @@ const RegistrationModal = ({
               </div>
             </div>
             
-            <div className="login-input-title">
+            <div className="register-inputs">
 
               <div className="registr_email">
                 <label htmlFor="email">Enter your email</label>

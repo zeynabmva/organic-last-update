@@ -34,7 +34,7 @@ const LoginModal = ({ handleSignUp, handleSignUpExit, dispatch }) => {
   };
   return (
     <div className="login-wrapper">
-      <div className="login-input">
+      <div className="login_container">
         <form method="post" onSubmit={handleSubmit}>
           <div className="login-input-head">
             <div className="org">Organick</div>
@@ -46,7 +46,7 @@ const LoginModal = ({ handleSignUp, handleSignUpExit, dispatch }) => {
             </div>
           </div>
 
-          <div className="login-input-title">
+          <div className="login_inputs">
             <div>
               <label htmlFor="email">Email Address</label>
               <input
